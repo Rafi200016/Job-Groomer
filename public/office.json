@@ -1,0 +1,142 @@
+[
+  {
+    "_id": 1,
+    "companyName": "Olloy",
+    "companyLogo": "https://i.ibb.co/hmh2QCH/steak-night.png",
+    "location": { "lat": 50.07290300915663, "lan": 4.607022846595331 },
+    "jobTitle": "Data Entry With Marketing work from home job/internship at Across The Globe (ATG)",
+    "duration": "6 Month",
+    "stipend": "1,000-1,500 /month",
+    "startDate": "Immediately",
+    "experience": "0-5 years",
+    "workFrom": "Chandigarh",
+    "aboutTheWork": "Exciting opportunity for hands-on experience in software development.",
+    "skill": ["CSS", "HTML", "Java", "JavaScript", "UI & UX Design"],
+    "whoApply": [
+      "are available for the work from home job/internship",
+      "can start the work from home job/internship between 17th Oct'23 and 8th Dec'23",
+      "are available for duration of 6 months",
+      "have relevant skills and interests"
+    ]
+  },
+  {
+    "_id": 2,
+    "companyName": "Tech Solutions",
+    "companyLogo": "https://i.ibb.co/xyz123/tech-solutions.png",
+    "location": { "lat": 40.7128, "lan": -74.006 },
+    "jobTitle": "Software Developer Intern",
+    "duration": "3 Months",
+    "stipend": "2,000-2,500 /month",
+    "startDate": "Immediately",
+    "experience": "0-5 years",
+    "workFrom": "Work from Home",
+    "aboutTheWork": "Exciting opportunity for hands-on experience in software development.",
+    "skill": ["Python", "C++", "Web Development", "Database Management"],
+    "whoApply": [
+      "are available for the internship",
+      "can start the internship between 1st Jan'24 and 15th Feb'24",
+      "are available for duration of 3 months",
+      "have programming skills and a passion for learning"
+    ]
+  },
+  {
+    "_id": 3,
+    "companyName": "EcoTech Solutions",
+    "companyLogo": "https://i.ibb.co/abc456/ecotech.png",
+    "location": { "lat": 34.0522, "lan": -118.2437 },
+    "jobTitle": "Environmental Research Assistant",
+    "duration": "4 Months",
+    "stipend": "1,500-2,000 /month",
+    "startDate": "Immediately",
+    "experience": "0-5 years",
+    "workFrom": "Jaipur, Rajasthan",
+    "aboutTheWork": "Contribute to meaningful research projects focused on environmental sustainability.",
+    "skill": ["Research Methodology", "Data Analysis", "Environmental Science"],
+    "whoApply": [
+      "are available for the research assistantship",
+      "can start the position between 10th Mar'24 and 30th Apr'24",
+      "are available for duration of 4 months",
+      "have a background in environmental science or related field"
+    ]
+  },
+  {
+    "_id": 4,
+    "companyName": "Creative Minds Studio",
+    "companyLogo": "https://i.ibb.co/def789/creative-minds.png",
+    "location": { "lat": 51.5099, "lan": -0.118 },
+    "jobTitle": "Graphic Design Internship",
+    "duration": "3 Months",
+    "stipend": "1,200-1,800 /month",
+    "startDate": "Immediately",
+    "experience": "0-5 years",
+    "workFrom": "Indore, Madhya Pradesh",
+    "aboutTheWork": "Explore your creativity and gain hands-on experience in graphic design projects.",
+    "skill": ["Adobe Creative Suite", "Graphic Design", "Typography"],
+    "whoApply": [
+      "are available for the internship",
+      "can start the internship between 5th May'24 and 20th Jun'24",
+      "are available for duration of 3 months",
+      "have a passion for graphic design and a creative mindset"
+    ]
+  },
+  {
+    "_id": 5,
+    "companyName": "HealthTech Innovations",
+    "companyLogo": "https://i.ibb.co/ghi101/healthtech.png",
+    "location": { "lat": 37.7749, "lan": -122.4194 },
+    "jobTitle": "Healthcare Data Analyst",
+    "duration": "6 Months",
+    "stipend": "2,500-3,000 /month",
+    "startDate": "Immediately",
+    "experience": "0-5 years",
+    "workFrom": "Work from Home",
+    "aboutTheWork": "Analyze healthcare data to derive insights for improving patient outcomes.",
+    "skill": ["Data Analysis", "SQL", "Healthcare Analytics"],
+    "whoApply": [
+      "are available for the data analyst position",
+      "can start the role between 15th Jul'24 and 5th Sep'24",
+      "are available for duration of 6 months",
+      "have a background in healthcare or data analytics"
+    ]
+  },
+  {
+    "_id": 6,
+    "companyName": "Global Marketing Hub",
+    "companyLogo": "https://i.ibb.co/jkl202/global-marketing.png",
+    "location": { "lat": 48.8566, "lan": 2.3522 },
+    "jobTitle": "Social Media Marketing Intern",
+    "duration": "3 Months",
+    "stipend": "1,000-1,500 /month",
+    "startDate": "Immediately",
+    "experience": "0-5 years",
+    "workFrom": "Work from Home",
+    "aboutTheWork": "Learn and contribute to social media marketing strategies on a global scale.",
+    "skill": ["Social Media Management", "Content Creation", "Marketing"],
+    "whoApply": [
+      "are available for the marketing internship",
+      "can start the internship between 10th Oct'24 and 30th Nov'24",
+      "are available for duration of 3 months",
+      "have an interest in social media and marketing"
+    ]
+  },
+  {
+    "_id": 7,
+    "companyName": "InnovateTech Labs",
+    "companyLogo": "https://i.ibb.co/mno303/innovatetech.png",
+    "location": { "lat": 37.7749, "lan": -122.4194 },
+    "jobTitle": "AI Research Intern",
+    "duration": "5 Months",
+    "stipend": "2,000-2,500 /month",
+    "startDate": "Immediately",
+    "experience": "0-5 years",
+    "workFrom": "Work from Home",
+    "aboutTheWork": "Contribute to cutting-edge AI research projects and explore the latest technologies.",
+    "skill": ["Machine Learning", "Python", "Research Skills"],
+    "whoApply": [
+      "are available for the research internship",
+      "can start the internship between 7th Feb'24 and 25th Mar'24",
+      "are available for duration of 5 months",
+      "have a strong interest in artificial intelligence and machine learning"
+    ]
+  }
+]
