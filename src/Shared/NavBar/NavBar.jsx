@@ -1,6 +1,28 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/jobentryLogo.png";
+import { useEffect, useState } from "react";
 const NavBar = () => {
+const [jobSearch,setJonSearch] = useState([])
+const [filteredItem,setFilterItem] = useState([])
+
+useEffect(()=>{
+  fetch('office.json')
+  .then(res=>res.json())
+  .then(data => setJonSearch(data))
+},[])
+
+  const handleSearch = (event)=>{
+const searchJob = event.target.value;
+if(searchJob){
+  const filtered = jobSearch.filter(job => job.jobName === searchJob);
+  setFilterItem(filtered)
+}
+else{
+  setFilterItem([])
+}
+}
+
+
   const navbarItem = (
     <>
       <li className="text-green-500 hover:text-black text-xl">
@@ -42,6 +64,8 @@ const NavBar = () => {
           </ul>
         </div>
         <img src={logo} className="w-1/4" alt="" />
+
+        
         <label>
           <small className="font-bold text-orange-600">JOB ENTRY</small>
         </label>
@@ -49,7 +73,45 @@ const NavBar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navbarItem}</ul>
       </div>
+    
       <div className="navbar-end">
+      <div>
+          <input
+            className="input input-bordered w-24 md:w-auto text-black"
+            type="text"
+            onBlur={handleSearch}
+            placeholder="Search by category"
+          />
+        </div>
+        {/* show search item */}
+        <label htmlFor="my_modal_6" className="btn btn-sm">
+          Search
+        </label>
+        <input type="checkbox" id="my_modal_6" className="modal-toggle" />
+        <div className="modal" role="dialog">
+          <div className="modal-box">
+            <div className="grid grid-cols-2 gap-5">
+              {filteredItem.length > 0 ? (
+                filteredItem.map((item) => (
+                  <div key={item._id}>
+                    <p className="text-black text-amber-500 text-xl">
+                      {item.companyName}
+                    </p>
+
+                    <p className="text-black"> {item.jobTitle}</p>
+                  </div>
+                ))
+              ) : (
+                <p className="text-red-500 ">No items found.</p>
+              )}
+            </div>
+            <div className="modal-action">
+              <label htmlFor="my_modal_6" className="btn bg-orange-500">
+                Close
+              </label>
+            </div>
+          </div>
+        </div>
         <button className="btn btn-success rounded-0 py-4 px-lg-5 d-none d-lg-block">
           APPOINTMENT
         </button>

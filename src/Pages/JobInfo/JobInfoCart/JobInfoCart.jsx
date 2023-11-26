@@ -8,9 +8,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./JobInfoCart.css";
 import OfficeLocation from "../../../Shared/OfficeLocation/OfficeLocation";
-import { useEffect, useState } from "react";
 const JobInfoCart = ({ dataOfJob }) => {
-  const [loading, setloading] = useState(false);
   const {
     companyName,
     companyLogo,
@@ -21,7 +19,6 @@ const JobInfoCart = ({ dataOfJob }) => {
     startDate,
     experience,
     workFrom,
-    aboutTheWork,
     skill,
     whoApply,
   } = dataOfJob;
@@ -113,6 +110,7 @@ const JobInfoCart = ({ dataOfJob }) => {
             <p>No skills specified</p>
           )}
         </div>
+        <button className="items-center btn btn-neutral">Apply </button>
       </div>
       <OfficeLocation locValue={locValue}></OfficeLocation>
     </div>

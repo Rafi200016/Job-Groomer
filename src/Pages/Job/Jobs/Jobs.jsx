@@ -9,11 +9,23 @@ const Jobs = () => {
       .then((data) => setJobs(data));
   }, []);
   return (
+    <div>
+      
+     <div className="items-center justify-center">
+     <h1 className="text-xl font-bold">
+      Internships
+      </h1>
+      <p>as per your preferences
+</p>
+     </div>
     <div className="grid grid-cols-3 gap-5">
       {jobs.map((job) => (
-        <JobsCard key={job._id} job={job}></JobsCard>
+        <JobsCard key={job._id}
+            job={job}></JobsCard>
       ))}
     </div>
+    </div>
+    
   );
 };
 

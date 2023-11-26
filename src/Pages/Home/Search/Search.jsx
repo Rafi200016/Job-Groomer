@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const Search = () => {
   const [postValue, setPostValue] = useState("");
   const [loactionValue, setLocationValue] = useState("");
-  // const [jobInfo, setJobInfo] = useState([]);
+  const [jobInfo, setJobInfo] = useState([]);
 
   useEffect(() => {
     fetch("office.json")
@@ -18,6 +18,7 @@ const Search = () => {
   const handlePost = (event) => {
     setPostValue(event);
   };
+
   return (
     <div>
       <div className="flex items-center justify-center bg-orange-300">
