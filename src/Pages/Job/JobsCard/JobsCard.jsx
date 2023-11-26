@@ -21,10 +21,10 @@ const JobsCard = ({ job }) => {
   return (
     <div className="border-spacing-16 shadow-xl p-5 rounded">
       {/* here take the company name and the logo  */}
-      <div className="flex justify-between mb-2 items-center">
+      <div className="flex justify-between mb-2 items-center ">
         <div>
           <h1 className="text-lg font-bold w font-sans">{jobTitle}</h1>
-          <p className="font-sans text-[#8A8A8A] mt-3">{companyName}</p>
+          <p className="font-sans  mt-3">{companyName}</p>
         </div>
         <div>
           <img src={companyLogo} className="w-20 h-12" alt="" />
@@ -51,7 +51,6 @@ const JobsCard = ({ job }) => {
         </div>
         <div>
           <h1>
-            {" "}
             <FontAwesomeIcon icon={faMoneyBill1} className="mr-1" />
             CTC(ANNUAL)
           </h1>
