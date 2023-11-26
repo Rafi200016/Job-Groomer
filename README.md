@@ -8,3 +8,4 @@
 - Font awesome
 - Daisyui
 - Tailwindcss
+* react-leaflet
